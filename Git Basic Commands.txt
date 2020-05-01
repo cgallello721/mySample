@@ -1,0 +1,30 @@
+Git
+
+BASIC COMMANDS
+. $ git init                //Initialize Local Git Repository
+. $ git add <file>          //Add File(s) To Index
+. $ git status              //Check Status Of Working Tree
+. $ git commit              //Commit Changes In Index
+For remote repositories
+. $ git push                //Push To Remote Repository
+. $ git pull                //Pull Latest From Remote Repository
+. $ git clone               //Clone Repository Into New Directory
+
+git bash
+. $ touch                      //To Create File(s)
+. $ git init            //initialize a project
+. $ git config --global user.name '(name)' //to add name to project
+. $ git config --global user.email '(email)' //add email
+. $ git status   // to find out what's in the staginh area
+. $ git rm --cached index.html //will unstage file
+. $ git add *.html // will add all html files or (*) will add all of a certain file...
+. $ git add . //will add everything
+if changes are made to a file a modified: index.htms will be shown when checking status
+. $ git add . status    //will add all new git changes
+. $ git commit //will open editior type i to go into insert mode scroll dow t0 init commit 
+erase # and hit esc. at the bottom type :wq enter and the files are commit with the new changes
+. $ git commit -m 'Changed app.js' // will skip that whole editting process
+
+
+
+
